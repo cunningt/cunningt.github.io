@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: foobar
+  labels:
+    app: foobar
+spec:
+  selector:
+    app: foobar
+  ports:
+  - name: web
+    port: 9779
