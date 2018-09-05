@@ -8,12 +8,9 @@ The [Prometheus Operator for Kubernetes](https://github.com/coreos/prometheus-op
 Links to the files I'm referencing here:
 * [bundle.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/bundle.yaml)
 * [prometheus.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/prometheus.yaml)
-* [role.yaml]
-(https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/role.yaml)
-* [service.yaml]
-(https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/service.yaml)
-* [servicemonitor.yaml]
-(https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/servicemonitor.yaml)
+* [role.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/role.yaml)
+* [service.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/service.yaml)
+* [servicemonitor.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/servicemonitor.yaml)
 
 For this example, we'll use a Fuse application, and a namespace called "fuse".    If you want to use a namespace with a different name, go through the yaml files specified here and change the `namespace:` references.
 
