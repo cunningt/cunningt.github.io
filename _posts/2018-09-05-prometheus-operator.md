@@ -54,6 +54,6 @@ oc expose svc/prometheus
 
 Using the Prometheus route :
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/cunningt/cunningt.github.io/raw/master/prometheus/prom1.png "Prometheus console, choosing Camel metric")
+![alt text](https://github.com/cunningt/cunningt.github.io/raw/master/prometheus/icon48.png "Prometheus console, graphing Camel metric")
 
