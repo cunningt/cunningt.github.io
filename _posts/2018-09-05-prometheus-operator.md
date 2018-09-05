@@ -60,7 +60,7 @@ Then expose a route :
 oc expose svc/prometheus
 ```
 
-Using the Prometheus route :
+Using the Prometheus route you just created, you can view and graph scraped metrics from your Fuse application :
 
 ![alt text](https://github.com/cunningt/cunningt.github.io/raw/master/prometheus/prom1.png "Prometheus console, choosing Camel metric")
 ![alt text](https://github.com/cunningt/cunningt.github.io/raw/master/prometheus/prom2.png "Prometheus console, graphing Camel metric")
