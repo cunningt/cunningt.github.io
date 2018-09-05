@@ -44,7 +44,7 @@ prometheus.monitoring.coreos.com "prometheus" created
 service "prometheus" created
 ```
 
-I have a [Fuse 7](https://www.redhat.com/en/technologies/jboss-middleware/fuse) spring boot application entitled "foobar" I'm using.   I've deployed that to my "fuse" namespace.  The "foobar" application has a [Prometheus JMX exporter](https://github.com/prometheus/jmx_exporter) attached that exposes metrics on port 9779.   I need to create a service ([service.yaml]((https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/service.yaml))) and a Prometheus Operator service monitor ([servicemonitor.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/servicemonitor.yaml):
+I have a [Fuse 7](https://www.redhat.com/en/technologies/jboss-middleware/fuse) spring boot application entitled "foobar" I'm using.   I've deployed that to my "fuse" namespace.  The "foobar" application has a [Prometheus JMX exporter](https://github.com/prometheus/jmx_exporter) attached that exposes metrics on port 9779.   I need to create a service ([service.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/service.yaml)) and a Prometheus Operator service monitor ([servicemonitor.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/servicemonitor.yaml)):
 
 ```
 tcunning@tcunning-OSX:~/prometheus$ oc apply -f service.yaml
