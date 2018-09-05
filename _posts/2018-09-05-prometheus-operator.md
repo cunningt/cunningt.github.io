@@ -22,7 +22,7 @@ oc create -f bundle.yaml
 
 First we create our "fuse" namespace, and then we use the [bundle.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/bundle.yaml) to create custom resource definitions for the prometheus-operator, and a role, rolebinding, deployment, and service account necessary for deploying the prometheus-operator.
 
-Note that the [bundle.yaml]((https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/bundle.yaml)) is very similar to the one in the prometheus-operator [instructions](https://github.com/coreos/prometheus-operator/blob/master/README.md), but uses role and rolebinding rather than clusterrole and clusterrolebinding, and includes the custom resource definitions.
+Note that the [bundle.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/bundle.yaml) is very similar to the one in the prometheus-operator [instructions](https://github.com/coreos/prometheus-operator/blob/master/README.md), but uses role and rolebinding rather than clusterrole and clusterrolebinding, and includes the custom resource definitions.
 
 ```
 tcunning@tcunning-OSX:~/prometheus$ oc get pods -n fuse
