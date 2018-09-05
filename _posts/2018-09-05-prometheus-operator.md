@@ -30,8 +30,8 @@ NAME                                  READY     STATUS    RESTARTS   AGE
 prometheus-operator-bccfd55f9-sx5pm   1/1       Running   0          48s
 ```
 
-Then we need to create a role for prometheus, and a Prometheus instance.   See the [role.yaml]((https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/role.yaml)
-) and [prometheus.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/prometheus.yaml):
+Then we need to create a role for prometheus, and a Prometheus instance.   See the [role.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/role.yaml)
+ and [prometheus.yaml](https://github.com/cunningt/cunningt.github.io/blob/master/prometheus/prometheus.yaml) :
 
 ```
 tcunning@tcunning-OSX:~/prometheus$ oc apply -f role.yaml
